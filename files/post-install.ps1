@@ -51,8 +51,8 @@ Remove-item $BasePath -Recurse
 reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon" /v AutoAdminLogon /t REG_SZ /d 0 /f
 
 # Set password
-$UserAccount = Get-LocalUser -Name "Administrator"
-$UserAccount | Set-LocalUser -Password (ConvertTo-SecureString -AsPlainText "P@ssw0rd" -Force)
+#$UserAccount = Get-LocalUser -Name "Administrator"
+#$UserAccount | Set-LocalUser -Password (ConvertTo-SecureString -AsPlainText "P@ssw0rd" -Force)
 
 # Run Sysprep and Shutdown
 cmd /C 'cd "C:\Program Files\Cloudbase Solutions\Cloudbase-Init\conf\" && C:\Windows\System32\Sysprep\sysprep.exe /generalize /oobe /shutdown /unattend:Unattend.xml'
