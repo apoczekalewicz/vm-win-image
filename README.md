@@ -4,7 +4,9 @@
 git clone https://github.com/apoczekalewicz/vm-win-image
 
 vim env.sh # iso paths, image settings
+
 ./01_create_unattended_iso.sh # create unattended_iso
+
 ./02_create_image.sh # create win qcow2 image
 
 
