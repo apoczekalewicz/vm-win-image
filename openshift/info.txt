@@ -1,0 +1,5 @@
+01_dv-win-iso.yaml:
+ change win2k19.iso url
+
+04_oc-creds.yaml
+  api, login, pass for OCP
