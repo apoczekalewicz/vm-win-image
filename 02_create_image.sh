@@ -19,5 +19,5 @@ virt-install  \
                   --vnc --os-type windows --os-variant ${OS_VARIANT}
 
 # Clean
-virsh destroy ${VM_NAME}
+virsh undefine ${VM_NAME}
 rm -rf ${ISOFILE_DEST}
