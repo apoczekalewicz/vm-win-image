@@ -1,0 +1,18 @@
+apiVersion: cdi.kubevirt.io/v1beta1
+kind: DataVolume
+metadata:
+  name: windows-iso
+  namespace: default
+spec:
+  source:
+    http: 
+      url: http://192.168.60.10/images/win2k19.iso
+  pvc: 
+    accessModes: 
+      - ReadWriteOnce
+    resources:
+      requests:
+        storage: 5Gi 
+    volumeMode: Block
+    storageClassName: ocs-storagecluster-ceph-rbd
+

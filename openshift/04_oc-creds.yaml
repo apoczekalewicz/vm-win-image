@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: oc-creds
+  namespace: default
+stringData:
+  OC_API: https://api.ocp1.example.lab:6443
+  OC_USER: admin
+  OC_PASS: Tajne123
