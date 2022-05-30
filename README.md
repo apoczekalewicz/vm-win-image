@@ -11,8 +11,6 @@ vim env.sh # iso paths, image settings
 
 
 ## Info:
-Image:
-
 Additional software:
 - Guest Agent
 - Qemu Tools (Drivers)
