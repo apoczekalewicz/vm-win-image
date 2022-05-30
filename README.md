@@ -11,11 +11,17 @@ vim env.sh # iso paths, image settings
 
 
 ## Info:
-- Import RH Certs
-- Install Guest Agent
-- Install Qemu Tools (Drivers)
-- Install CloudInit
-- Enable RDP
-- Enable SSH
-- Disable firewall
+Image:
 
+Additional software:
+- Guest Agent
+- Qemu Tools (Drivers)
+- Cloudinit
+
+Services:
+- RDP - enabled
+- SSH - enabled
+- Firewall - disabled
+
+Other:
+- RH certs - imported
