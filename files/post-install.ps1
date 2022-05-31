@@ -1,3 +1,6 @@
+# Better Performance for invoke-webrequest
+$ProgressPreference = "SilentlyContinue"
+
 # Create Workdir
 $BasePath = "C:\Windows\Temp\Install"
 New-item $BasePath -itemtype directory
