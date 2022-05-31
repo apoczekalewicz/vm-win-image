@@ -14,5 +14,5 @@ spec:
       requests:
         storage: 5Gi 
     volumeMode: Block
-    storageClassName: ovirt-csi-sc
+    storageClassName: ocs-storagecluster-ceph-rbd
 

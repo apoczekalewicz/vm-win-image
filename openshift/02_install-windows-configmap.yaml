@@ -12,7 +12,7 @@ data:
                       metadata:
                         name: win2k19
                       spec:
-                        storageClassName: ovirt-csi-sc
+                        storageClassName: ocs-storagecluster-ceph-rbd
                         accessModes:
                           - ReadWriteOnce
                         resources:
