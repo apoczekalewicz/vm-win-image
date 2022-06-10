@@ -14,7 +14,7 @@ data:
                       spec:
                         storageClassName: ocs-storagecluster-ceph-rbd
                         accessModes:
-                          - ReadWriteOnce
+                          - ReadWriteMany
                         resources:
                           requests:
                             storage: 12Gi
@@ -35,7 +35,7 @@ data:
                             name: "win2k19"
                         pvc:
                           accessModes:
-                            - ReadWriteOnce
+                            - ReadWriteMany
                           resources:
                             requests:
                               storage: 12Gi
@@ -116,7 +116,7 @@ data:
                             spec:
                               pvc:
                                 accessModes:
-                                - ReadWriteOnce
+                                - ReadWriteMany
                                 resources:
                                   requests:
                                     storage: 12Gi

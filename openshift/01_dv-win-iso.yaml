@@ -9,7 +9,7 @@ spec:
       url: http://192.168.60.10/images/win2k19.iso
   pvc: 
     accessModes: 
-      - ReadWriteOnce
+      - ReadWriteMany
     resources:
       requests:
         storage: 5Gi 
