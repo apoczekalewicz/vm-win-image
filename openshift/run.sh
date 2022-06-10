@@ -1,1 +1,1 @@
-oc create -k ./
+oc apply -k ./
