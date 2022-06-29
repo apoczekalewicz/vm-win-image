@@ -14,7 +14,7 @@ data:
                       spec:
                         storageClassName: ocs-storagecluster-ceph-rbd
                         accessModes:
-                          - ReadWriteMany
+                          - ReadWriteOnce
                         resources:
                           requests:
                             storage: 12Gi
