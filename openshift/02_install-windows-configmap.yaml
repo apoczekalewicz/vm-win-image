@@ -116,7 +116,7 @@ data:
                             spec:
                               pvc:
                                 accessModes:
-                                - ReadWriteMany
+                                - ReadWriteOnce
                                 resources:
                                   requests:
                                     storage: 12Gi
